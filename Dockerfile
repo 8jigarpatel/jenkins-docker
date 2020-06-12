@@ -21,4 +21,5 @@ RUN apt-get update && \
    usermod -aG docker jenkins
 
 # drop back to the regular jenkins user - good practice
-USER jenkins
+# .. but causes some issues on windows, let's not switch the user perhaps
+# USER jenkins
