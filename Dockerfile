@@ -20,6 +20,5 @@ RUN apt-get update && \
    apt-get clean && \
    usermod -aG docker jenkins
 
-# drop back to the regular jenkins user - good practice
-# .. but causes some issues on windows, let's not switch the user perhaps
-# USER jenkins
+COPY entrypoint.sh /
+ENTRYPOINT ["/sbin/tini", "--", "/entrypoint.sh"]
