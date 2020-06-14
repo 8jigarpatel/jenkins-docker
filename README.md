@@ -2,7 +2,7 @@
 
 # 8jigarpatel/jenkins-docker
 
-This repo is simply a clone of [4OH4/jenkins-docker](https://github.com/4OH4/jenkins-docker).
+This repo is simply a clone of [4OH4/jenkins-docker](https://github.com/4OH4/jenkins-docker) with some additional info about using it with [nginx-proxy](https://github.com/nginx-proxy/nginx-proxy) and [letsencrypt-nginx-proxy-companion](https://github.com/nginx-proxy/docker-letsencrypt-nginx-proxy-companion).
 
 
 ### Running the container
