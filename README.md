@@ -18,7 +18,7 @@ docker run -d \
 jigarpatel8/jenkins-docker
 ```
 
-### Running the container with nginx-proxy & letsencrypt-nginx-proxy-companion (see further below for proxy & companion)
+### Running the container with nginx-proxy & letsencrypt-nginx-proxy-companion (see below for proxy & companion)
 ```
 docker run -d \
 --restart unless-stopped \
